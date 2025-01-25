@@ -9,12 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Kartik Gupta </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            from <span className="purple"> Gujarat, India.</span>
+
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed MCA(Masters in Computer Applications) at MS University,
+            Vadodara.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,9 +22,9 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Writing Tech Blogs
-            </li>
+            </li> */}
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
